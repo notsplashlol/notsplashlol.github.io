@@ -1,0 +1,41 @@
+/* ---------- Interactive Canvas Logo Layout ---------- */
+.brand-mark-canvas {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+/* ---------- Text Content Layouts (What We Do / Privacy) ---------- */
+.standard-content {
+  max-width: 780px;
+  margin: 0 auto;
+}
+.standard-content h2 {
+  font-size: 1.85rem;
+  margin-top: 3.5rem;
+  margin-bottom: 1.1rem;
+  color: var(--bone);
+  letter-spacing: 0.02em;
+}
+.standard-content p {
+  color: var(--slate);
+  font-size: 1.05rem;
+  line-height: 1.75;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+.standard-content ul {
+  list-style: square;
+  padding-left: 1.5rem;
+  margin-bottom: 1.8rem;
+  color: var(--slate);
+}
+.standard-content li {
+  font-size: 1.02rem;
+  line-height: 1.7;
+  margin-bottom: 0.6rem;
+}
+.text-teal { color: var(--teal-glow) !important; }
+.text-crimson { color: var(--crimson-glow) !important; }

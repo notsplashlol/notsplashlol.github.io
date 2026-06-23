@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What We Do — Splash Studios</title>
+<meta name="description" content="An in-depth breakdown of our development workflows, physics architectures, and design principles at Splash Studios.">
+<meta name="theme-color" content="#0a0a0e">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a0a0e'/%3E%3Cpath d='M33,5 C44,6 52,16 49,26 C57,29 61,38 57,47 C52,58 39,62 28,57 C16,52 10,40 14,28 C17,19 24,11 33,5 Z' fill='%23E6293F'/%3E%3Ccircle cx='49' cy='15' r='5' fill='%2319B9A8'/%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:wght@600;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="star-field" aria-hidden="true"></div>
+
+<header class="nav">
+  <a href="index.html" class="brand">
+    <canvas id="logoCanvas" class="brand-mark-canvas" width="64" height="64" aria-hidden="true"></canvas>
+    <span class="brand-word">SPLASH<small>STUDIOS</small></span>
+  </a>
+  <nav class="nav-links">
+    <a href="games.html">Games</a>
+    <a href="what-we-do.html" class="active">What We Do</a>
+    <a href="privacy-policy.html">Privacy Policy</a>
+  </nav>
+  <a class="btn btn-primary" href="https://discord.gg/4bHSVDsTp4" target="_blank" rel="noopener">Join Discord</a>
+</header>
+
+<section class="page-header">
+  <div class="section-inner">
+    <p class="eyebrow text-teal">Our Craft</p>
+    <h1>What we do &<br>How we do it</h1>
+    <p>Behind the scenes of our physics-driven VR engineering pipeline and design principles.</p>
+  </div>
+</section>
+
+<section style="padding-top: 0;">
+  <div class="section-inner standard-content">
+    
+    <h2>Architecting Spatial Presence</h2>
+    <p>At Splash Studios, we specialize in building small-scale, high-fidelity immersive virtual reality experiences that prioritize spatial awareness, dynamic audio design, and fine-tuned kinematics. Our philosophy rejects the reliance on linear storytelling mechanisms or passive cinematic prompts. Instead, we build systemic sandboxes where structural tension, environmental geometry, and physics-driven entity behaviors collaborate to establish a tangible sense of immediate hazard.</p>
+    <p>Our approach centers heavily on the design of uncompromised physical presence. By mapping player interaction rules directly to real-world geometric boundaries and hard collision vectors, we generate intuitive mechanics. This design methodology bypasses traditional button abstracts, allowing players to naturally reach, duck, manipulate objects, and explore tactical vectors using their actual physical posture. This foundation underpins our flagship title, Starving Apes 2.</p>
+
+    <h2>The Engineering Pipeline</h2>
+    <p>Achieving stable tracking and low-latency rendering cycles on mobile XR computing matrices requires meticulous optimization. We systematically isolate computational overhead to maintain target framerates across target devices. Our geometry pipeline targets optimized mesh construction, combining unified material mapping profiles with aggressive occluding techniques to prune non-visible drawing commands before they impact the rendering pipeline.</p>
+    <p>We treat our rendering frame budgets as a definitive constraint. Dynamic lighting calculations are strictly budgeted, leaning heavily into complex static lighting maps to maintain clear visual style while saving real-time processing power. Dynamic shadows are deployed selectively on focal environmental entities or threatening hazards to establish high visual impact without risking processing drops or micro-stutters during intense encounters.</p>
+
+    <h2>Live Operations & Backend Ecosystems</h2>
+    <p>A resilient online infrastructure is critical to maintaining long-term multiplayer engagement. Our games link directly into secure, highly scalable cloud architectures designed to host decentralized global account configurations. By validating player milestones, inventory drops, and match progression on remote servers, we mitigate transaction vulnerabilities and ensure complete parity across international data regions.</p>
+    <p>This telemetric layer allows us to continuously observe game balance, evaluate structural mechanics, and pinpoint client performance drop-offs without invading user devices. The telemetry harvested from live sessions flows straight back into our build loop, allowing us to rapidly deploy balancing adjustments, security patches, and structural fixes that keep our shared environments clean, stable, and highly competitive.</p>
+
+  </div>
+</section>
+
+<footer>
+  <a href="index.html" class="brand">
+    <canvas id="footerLogoCanvas" class="brand-mark-canvas" width="64" height="64" aria-hidden="true" style="width:24px;height:24px;"></canvas>
+    <span class="brand-word">SPLASH<small>STUDIOS</small></span>
+  </a>
+  <p>&copy; 2026 Splash Studios. All rights reserved.</p>
+  <div class="foot-links">
+    <a href="index.html">Home</a>
+    <a href="what-we-do.html">What We Do</a>
+    <a href="privacy-policy.html">Privacy Policy</a>
+    <a href="https://discord.gg/4bHSVDsTp4" target="_blank" rel="noopener">Discord</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
